@@ -1,7 +1,10 @@
 # pltnn
 try to show very simple neural networks interactively with different activations (plot neural networks)
 
-这是一个非常简单的用于从直观上理解神经网络为何可以进行分类的可视化交互式 matplotlib 小程序。目前它可以提供如下几种模型的可视化：
+这是一个非常简单的用于从直观上理解神经网络为何可以进行分类的可视化交互式 matplotlib 小程序。
+从最简的神经网络尝试以图形化的方式理解激活函数对特征值的线性和非线性组合，这对直觉上理解神经网络非常有益的。
+
+目前它可以提供如下几种简单层次模型的可视化：
 
 ## 4 种基本模型
 
