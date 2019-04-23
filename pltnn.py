@@ -105,7 +105,7 @@ class pltNN():
     def plot_neuron_111(self):
         fig, ax = plt.subplots()
         plt.subplots_adjust(left=0.25, bottom=0.35)
-        plt.title('$%s[%sw_{21}(w_{11}x+w_{10})+w_{20}]$' % (self.acttype, self.acttype))
+        plt.title('$%s[w_{21}%s(w_{11}x+w_{10})+w_{20}]$' % (self.acttype, self.acttype))
         
         # 使用默认值绘制图像
         s = self.activate111(self.w_reset, self.w_reset, self.w_reset, self.w_reset)

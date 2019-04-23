@@ -11,11 +11,16 @@ try to show very simple neural networks interactively with different activations
 # x----------->y
 ```
 
+![1 输入 1 输出](https://github.com/llinjupt/pltnn/blob/master/11.png)
+
+
 2. 2 层单节点，对应 plot_neuron_111
 ```
 #  w11*x1 + w10  a1*w21 + w20 
 # x1----------->a1--------->y1
 ```
+
+![2 层 1 输入 1 输出](https://github.com/llinjupt/pltnn/blob/master/111.png)
 
 3. 单层 2 输入 1 输出，对应 plot_neuron_21   
 ```
@@ -25,12 +30,16 @@ try to show very simple neural networks interactively with different activations
 # x2----------+
 ```
 
+![2 输入 1 输出](https://github.com/llinjupt/pltnn/blob/master/21.png)
+
 4. 2 层，2 输入 1 输出，对应 plot_neuron_211
 ```
 # x1----------+
 #             |------>a------->y
 # x2----------+
 ```
+
+![2 层 2 输入 1 输出](https://github.com/llinjupt/pltnn/blob/master/211.png)
 
 ## 如何使用
 
@@ -50,7 +59,3 @@ try to show very simple neural networks interactively with different activations
 初始化 pltNN 类可以传入 type 参数指定使用的激活函数，目前支持：
 
 'logistic', 'relu' 和 'tanh'，当然扩展它们非常容易。
-
-## 交互式示例
-
-![2 输入 1 输出](https://github.com/llinjupt/pltnn/blob/master/21.png)
